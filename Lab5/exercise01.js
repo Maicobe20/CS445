@@ -16,6 +16,3 @@ isPrime(7)
 console.log('end');
 
 
-async function prime(){
-    let x = await isPrime()
-}
