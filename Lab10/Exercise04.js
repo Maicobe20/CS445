@@ -4,7 +4,7 @@ function fibonacci(n,prevValues=[]) {
     }
     let result;
     if (n <= 1) {
-        return 1;
+        result = 1;
     }else{
 
       result = fibonacci(n - 1,prevValues) + fibonacci(n - 2,prevValues);
